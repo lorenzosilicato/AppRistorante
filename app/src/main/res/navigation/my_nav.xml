@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.progettosilicato.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_prenotaFragment"
+            app:destination="@id/prenotaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_prenotatoFragment"
+            app:destination="@id/prenotatoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prenotaFragment"
+        android:name="com.example.progettosilicato.PrenotaFragment"
+        android:label="Prenota"
+        tools:layout="@layout/fragment_prenota" >
+        <action
+            android:id="@+id/action_prenotaFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_prenotaFragment_to_confermaFragment"
+            app:destination="@id/confermaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.progettosilicato.MenuFragment"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confermaFragment"
+        android:name="com.example.progettosilicato.ConfermaFragment"
+        android:label="fragment_conferma"
+        tools:layout="@layout/fragment_conferma" >
+        <action
+            android:id="@+id/action_confermaFragment_to_prenotaFragment"
+            app:destination="@id/prenotaFragment" />
+        <argument
+            android:name="datiConferma"
+            app:argType="string[]" />
+        <action
+            android:id="@+id/action_confermaFragment_to_prenotatoFragment2"
+            app:destination="@id/prenotatoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prenotatoFragment"
+        android:name="com.example.progettosilicato.PrenotatoFragment"
+        android:label="fragment_prenotato"
+        tools:layout="@layout/fragment_prenotato" >
+        <action
+            android:id="@+id/action_prenotatoFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

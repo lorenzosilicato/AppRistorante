@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ProgettoSilicato</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prenota">Prenota</string>
+    <string name="menu">menu</string>
+    <string name="ordina">Ordina</string>
+    <string name="posizioneText">\t Questa è la nostra \n \t posizione, \n \t Vieni a trovarci !</string>
+    <string name="orario">Orario :</string>
+    <string name="capienza">Capienza :</string>
+    <string name="persone">persone</string>
+    <string name="_800item">8:00</string>
+    <string name="orarioprenota">Orario</string>
+    <string name="capienzaprenota">Capienza</string>
+    <string name="_5prenota">5</string>
+    <string name="personeprenota">persone</string>
+    <string name="numero_tavoloprenota">Numero Tavolo</string>
+    <string name="_1item">1</string>
+    <string name="_5conferma">5</string>
+    <string name="numero_tavoloconferma">Numero Tavolo :</string>
+    <string name="_1conferma">1</string>
+    <string name="inserisci_il_tuo_nome_quiconferma">Inserisci il tuo nome qui</string>
+    <string name="confermaconferma">Conferma</string>
+    <string name="cancellaconferma">Cancella</string>
+    <string name="_8_00conferma">8:00</string>
+    <string name="benvenuto_nprenota_un_tavolo_o_visiona_il_nostro_men_ancora_prima_di_arrivare">Benvenuto, \nPrenota un tavolo o visiona il nostro Menù ancora prima di arrivare!</string>
+    <string name="la_tua_prenotazione_andata_a_buon_fine_n_ti_aspettiamo">La tua prenotazione è andata a buon fine, \n Ti aspettiamo!</string>
+    <string name="_1prenotato">1</string>
+    <string name="numero_tavoloprenotato">Numero Tavolo :</string>
+    <string name="personeprenotato">persone</string>
+    <string name="_5prenotato">5</string>
+    <string name="capienzaprenotato">Capienza :</string>
+    <string name="_8_00prenotato">8:00</string>
+    <string name="orarioprenotato">Orario :</string>
+    <string name="homeprenotato">Home</string>
+    <string name="panino">Panino</string>
+    <string name="_10_00">10.00 €</string>
+    <string name="questa_la_descrizione_del_cibo_selezionato">Questa è la descrizione del cibo selezionato</string>
+
+</resources>
